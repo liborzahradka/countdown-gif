@@ -1,6 +1,6 @@
 # Gif countdown generator
 
-The very simple app I have created allows you to generate a countdown timer animated gif depending on the URL parameters you provide. [View demo](https://date-gif.herokuapp.com/). Now no longer maintained.
+The very simple app I have created allows you to generate a countdown timer animated gif depending on the URL parameters you provide.
 
 ## URL Parameters (*required)
 
@@ -16,18 +16,16 @@ The very simple app I have created allows you to generate a countdown timer anim
 
 These trigger a download. Change the URL from `/generate` to `/serve` when used in an image tag.
 
-* **Basic**: [/generate?time=2018-09-24T20:35](https://date-gif.herokuapp.com/generate?time=2018-09-24T20:35&name=ex1)
-* **Custom dimensions**: [/generate?time=2018-09-24T20:35&width=300&height=150](https://date-gif.herokuapp.com/generate?time=2018-09-24T20:35&width=300&height=150&name=ex2)
-* **Custom colours**: [/generate?time=2018-09-24T20:35&bg=028900&color=adff00](https://date-gif.herokuapp.com/generate?time=2018-09-24T20:35&bg=028900&color=adff00&name=ex3)
-* **Custom name & frames**: [/generate?time=2018-09-24T20:35&name=awesome-gif&frames=20](https://date-gif.herokuapp.com/generate?time=2018-09-24T20:35&name=awesome-gif&frames=20)
+* **Basic**: `/generate?time=2018-09-24T20:35`
+* **Custom dimensions**: `/generate?time=2018-09-24T20:35&width=300&height=150`
+* **Custom colours**: `/generate?time=2018-09-24T20:35&bg=028900&color=adff00`
+* **Custom name & frames**: `/generate?time=2018-09-24T20:35&name=awesome-gif&frames=20frames=20)`
 
 ## Versions
 
 Tested with and designed for:
 
-* node 6.0.0
-* cairo 1.8.6
-
+* node v16.13.0
 ## License
 
 [MIT](LICENSE)
